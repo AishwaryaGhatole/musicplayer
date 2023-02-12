@@ -4,6 +4,10 @@
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
 }
+Body{
+    background: rgb(28,238,215);
+    background: radial-gradient(circle, rgb(0, 255, 225) 0%, rgb(0, 255, 221) 100%);
+}
 
 .container{
     width: 100%;
@@ -15,12 +19,8 @@
 }
 
 .circle-music-player{
-    background: rgb(28,238,215);
-    background: radial-gradient(circle, rgb(0, 255, 225) 0%, rgb(0, 255, 221) 100%);
     width: 470px;
     height: 93%;
-    border: 1px solid white;
-    border-radius: 20px;
     padding: 25px 35px;
     text-align: center;
 
